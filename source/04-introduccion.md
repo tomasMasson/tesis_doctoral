@@ -3,7 +3,7 @@ author: Tomas Masson
 date: 2020
 lang: es-ES
 bibliography: ./references/bibliography.bib
-mainfont: Monserrat
+#mainfont: Monserrat
 #mainfontoptions:
 #- BoldFont=Helvetica-Bold
 #- ItalicFont=Helvetica-Oblique
@@ -17,7 +17,6 @@ header-includes:
     - \usepackage{setspace}
     - \doublespacing
 ---
-
 
 # Polilla militar tardía
 
@@ -52,7 +51,17 @@ A nivel morfológico, el virión esta formado por una nucleocápside con forma b
 
 # Composición proteica de las partículas baculovirales
 
+La nucleocápsides de ambos fenotipos virales, los BVs y los ODVs, presentan una estructura con forma de báculo y unas dimensiones aproximadas de 200-400 nm de largo y 40-70 nm de diámetro. El genoma baculoviral dentro de la nuclecápside se encuentra bajo la forma de un complejo nucleoproteico junto con la proteína básica P6.9, la cual neutralizaría las cargas negativas presentes en los grupos fosfato del ADN. La proteína de cápside mayoritaria, VP39, forma una capa proteica helicoidal encargada de recubrir este complejo nucleoproteico. Acompañando a VP39, aparecen otras proteínas de cápside minoritarias, como PP78/83 (involucrada en la translocación de los viriones hacia el núcleo celular mediada por la polimerización de actina), P40/C42 (un factor viral que inhibe la degradación de PP78/83) [@Zhang_2018], 38K (involucrada en la defosforilación de P6.9, necesaria para e ensamblaje de la nucleocápside) [@Lai_2018],  VP80 (involucrada en la salida de las nucleocápsides del núcleo) [@Marek_2011], VP1054 (necesario para la producción de progenie viral) [@Marek_2013] y P24 (de función desconocida).
+
+Acompañando a los componenes estructurales mencionados anterioemente se han detectado una plétora de proteínas accesorias en la nucleocápside de los ODVs, probablemente como una forma de aportar funciones auxiliares durante la infección oral. La presencia en la nuclecápside de proteínas asociadas a la replicación viral, como IE1, DNA-Pol, Helicase, LEF1, LEF2 and LEF3 [@Citas_xxxx], podrían contribuir a acelerar la producción de progenie viral durante la infección de las células columnares del intestino, ya que estas se encuentran en un estado arrestado (G0) que no favorece la replicación viral. En este sentido, los ODV también portan la proteína ODV-EC27, una ciclina viral que interactúa con kinasas dependientes de ciclinas (CDKs) celulares y promueve la transición hacia una fase S, favoreciendo la replicación del genoma viral.
+
+El tegumento de la partícula viral, definido como el componente proteico que se localiza entre la nucleocápside y la envoltura lipídica, esta compuesto mayoritariamente por la proteína O-glicosilada GP41. Aunque su función permanece en mayor parte desconocida, los trímeros de GP41 han sido implicados en la correcta formación de los ODVs [@Li_2018].
+
+La envoltura lipídica que rodea a la nucleocápside y el tegumento es uno de los puntos de mayor diferencias entre los BVs y los ODVs. Mientras que en los BVs la envoltura se encuentra decorada casi exclusivamente por la proteína de fusión F, y en algunas especies de alphabaculovirus por GP64, los ODVs presentan un complejo macromolecular de más de 500 kDa conformado por un grupo de proteínas, los *per os* infectivity factors (PIFs), necesarias para la infección de las células columnares del instestino [@Wang_2019; @Boogaard_2018]. Los componentes PIF1, PIF2 y PIF3 son los encargados de formar un comlejo núcleo de ~230 kDa al cual luego se agregan PIF0, PIF4, PIF6, PIF7, PIF8 y PIF9 para formar el complejo completo, el cual se ensambla a nivel de la membrana nuclear interna o del retículo endoplasmático y luego se libera como microvesículas que se unen a las nucleocápsides.
+
 # Caracterización de nuevos aislamientos
+
+
 
 # Fundamentos y alcance de este trabajo
 
