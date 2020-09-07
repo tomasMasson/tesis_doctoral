@@ -1,12 +1,13 @@
 ---
+title: Capitulo 4
 author: Tomas Masson
 date: 2020
 lang: es-ES
 bibliography: references/bibliography.bib
-#mainfont: Monserrat
-#mainfontoptions:
-#- BoldFont=Helvetica-Bold
-#- ItalicFont=Helvetica-Oblique
+mainfont: Carlito-Regular
+mainfontoptions:
+- BoldFont=Carlito-Bold
+- ItalicFont=Carlito-Italic
 fontsize: 12pt
 geometry: "top=1in,bottom=1in,left=1in,right=1in"
 output: pdf_document
@@ -18,6 +19,8 @@ header-includes:
     - \doublespacing
     - \usepackage[labelfont=bf]{caption} # Figures name in Bold
 ---
+
+\newpage
 
 # Polilla militar tardía
 
@@ -81,11 +84,31 @@ Estos baculovirus han sido empleados en distintos contextos para el control biol
 
 # Diversidad genómica en poblaciones naturales de baculovirus
 
+La caracterización de nuevos aislamientos de baculovirus se ha desarrollado históricamente a través de la secuenciación de los genes *polh*, *lef8*, y *lef9* , seguido del cálculo de la distancia génetica entre aislamientos empleando una matriz de sustitución Kimura 2-parámetros [@Jehle_2006]. Más recientemente, un método basado en un modelo probabilístico de Poisson ha sido utilizado en la clasificación de mas de 500 aislamientos a aportado detalles relevantes sobre los procesos de diversificación que afectan a los baculovirus [@Theze_2018]. Una observación que surge de a partir de estos estudios es la elevada conservación de un hospedador específico (aunque existan casos de baculovirus generalistas como AcMPNV) y la contribución del tipo de alimentación del hospedador (herbívoro o leñoso) al nicho ecológico del virus. Los patrones de restricción obtenidos a través de la digestión de ADN genómico viral con una enzima de restricción (en general BamHI, EcoRI y HindIII) también han sido de gran utilidad para caracterizar a grandes rasgos la composición genética de los aislamientos de baculovirus y analizar posibles determinantes de patogenicidad [@Miller_1978; @Jehle_2003; @L_op_z_ferber_2003].
+
 Gracias al rápido desarrollo de las plataformas de secuenciación masiva (High-Throughput Sequencing, HTS), la secuenciación de genomas completos a pasado a ser un componente común para varios campos dentro de la virología, lo que se ha traducido en un incremento acelerado de la información genómica disponible. Dado que el nivel de detalle que alcanza un proyecto de secuenciación depende en gran parte de los objetivos de investigación, se han propuesto cinco categorías para clasificar el grado de completitud de un genoma viral [@Ladner_2014]. En el caso de los baculovirus, gran parte del esfuerzo en investigación ha sido direccionado hacia el descubrimiento y la caracterización genómica completa de nuevas especies virales a partir de muestras de campo. En este sentido, resulta evidente el incremento en los últimos años de la cantidad de genomas completos depositados para miembros de la familia *Baculoviridae*, en su mayoría a través de técnicas de HTS basadas en la plataforma Illumina, aunque también hay reportes recientes donde se emplean las tecnologías Nanopore y PacBio [@van_der_Merwe_2017; @Moldov_n_2018; @Nguyen_2018].
+
+Los métodos HTS no solo han permitido la secuenciación de un mayor número de genomas virales, sino que también ha permitido estudiar los aislamientos virales como poblaciones compuestas por diversos genomas que portan polimorfismos y variantes estructurales [@Renner_2018]. ESTUDIOS ACMNPV Y SEMNPV. La disponibilidad de varios aislamientos secuenciados para una misma especie de baculovirus también ha abierto las puertas para el estudio del pangenoma viral y su impacto en las interacciones virus-hospedador. Análisis comparativos de la diversidad genómica en poblacines de baculovirus se han llevado a cabo para BmNPV, SeMNPV, AgMNPV, CpGV y ErelGV.
 
 \newpage
 
 # Fundamentos y alcance de este trabajo
+
+Los productos biológicos basados en baculovirus representan una alternativa
+prometedora para disminuir de manera paulatina el uso de productos químicos para
+el control de S. frugiperda. Sin embargo, su elevada especificidad y los largos tiempos
+de acción hacen económicamente inviable su aplicación a campo. El estudio de las
+bases y mecanismos moleculares que contribuyen a la virulencia y el rango de
+hospedador de los diferentes aislamientos baculovirales es central para acelerar su
+aplicación como bioinsumos. El aislamiento de dos baculovirus autóctonos (SfMNPV y SfGV) con potencial para el control de *S. frugiperda* representa una gran oportunidad para el desarrollo de pesticidas con menor impacto ambiental.
+
+En este contexto, el objetivo principal de esta tesis doctoral es caracterizar los factores involucrados en la adaptación de aislamientos autóctonos de SfMNPV y SfGV a la oruga militar tardía. Además, este trabajo buscar generar herramientas para facilitar el estudio de SfGV a través de cultivos celulares. A partir de esto, se proponen los siguientes objetivos específicos:
+
+- Caracterizar el proteoma de los cuerpos de oclusión de SfGV.
+- Realizar un análisis comparativo del perfil de proteínas estructurales descriptas para cuerpos de oclusión en la familia *Baculoviridae*.
+- Investigar la diversidad genética presente en un aislamiento autóctono de SfMNPV y realizar un análisis comparativo con otros aislamientos de este virus.
+- Evaluar la capacidad infectiva de SfGV en la línea celular Sf9 mediante transfecciones de cultivos celulares con DNA genómico viral.
+- Evaluar el desarrollo del ciclo infectivo de SfGV en líneas celulares transgénicas que expresan genes descriptos como potenciadores de la infección de betabaculovirus en cultivos celulares.
 
 \newpage
 # Referencias
