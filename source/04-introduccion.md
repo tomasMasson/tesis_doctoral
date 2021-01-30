@@ -1,6 +1,10 @@
+# Capítulo 1
+
+\begin{center}{\Huge Introducción}\end{center}\
+
 \newpage
 
-# Oruga militar tardía
+## Oruga militar tardía
 
 El gusano cogollero del maíz (*Spodoptera frugiperda J. E. Smith*, Lepidoptera: Noctuidae), también conocido como oruga militar tardía, es una plaga polífaga altamente destructiva que ataca una gran variedad de cultivos, entre ellos el algodón, maíz, soja, sorgo y caña de azúcar [@Montezano_2018]. El mayor daño es producido por los estadios larvales debido a su gran consumo de follaje y de brotes, lo que limita el crecimiento del cultivo, principalmente durante las etapas vegetativa avanzada y reproductiva [@Sparks_1979]. Es una especie altamente invasiva y puede cubrir largas distancias gracias a sus fuertes capacidades de vuelo [@Johnson_1987].
 
@@ -8,7 +12,7 @@ Si bien es una especie endémica del continente americano, recientemente se ha e
 
 ![Distintos estadíos de desarrolo de la oruga militar tardía (*Spodoptera frugiperda*); estadío larval (izquierda) y fase adulta, o polilla (derecha).](./assets/spodoptera-frugiperda.png)
 
-# Control biológico de plagas
+## Control biológico de plagas
 
 Históricamente, las estrategias empleadas para el control de la oruga militar tardía, al igual que para otros insectos plaga, se han centrado principalmente en el uso de pesticidas químicos de síntesis [@Al_Sarar_2006; @Carvalho_2013]. Sin embargo, el uso intensivo de este tipo de productos ha conducido a la aparición de poblaciones resistentes a estos tratamientos [@Bolzan_2019; @Lira_2020], motivando la búsqueda de opciones alternativas. A esto se suma también el impacto en Europa de legislaciones que restringen los niveles residuales aceptables para la mayoría de los pesticidas comerciales [@Lacey_2015]. Aunque la introducción de la toxina Cry (derivada de *Bacillus thuringiensis*) en los cultivos Bt mejoró manejo de la resistencia a insecticidas químicos y permitió la reducción de su uso, recientemente se ha reportado la aparición de resistencia a esta toxina [@Yang_2017; @Huang_2020; @Burtet_2017], lo que complica el desarrollo de estrategias de control efectivas.
 
@@ -18,7 +22,7 @@ Los virus pertenecientes a la familia *Baculoviridae* son el principio activo ma
 
 Actualmente existen varias empresas que comercializan productos basados en baculovirus para el control de diversas plagas, lo que enfatiza las posibilidades reales de desarrollo de este tipo de productos. La empresa suiza Andermatt Biocontrol ofrece una amplia variedad de productos amigables con el ambiente, entre los cuales se destacan más de 10 insecticidas basados en baculovirus. AgBiTech, una empresa australiana de productos agrícolas, comercializa el pesticida Vivus Max, una formulación basada en el baculovirus *Helicoverpa armigera* Nucleopolyhedrovirus (HearNPV) para el control del gusano del algodón (*Helicoverpa armigera*).
 
-# Biología de los baculovirus
+## Biología de los baculovirus
 
 La familia Baculoviridae comprende un grupo diverso de virus entomopatogénicos que infectan mayoritariamente a insectos pertenecientes al orden *Lepidoptera*, y en menor medida a himenópteros y dípteros [@Harrison_2018; @Th_z__2018]. El nombre baculovirus deriva de la palabra latina *baculum* (báculo, bastón), haciendo referencia a la forma alargada de sus viriones [@Rohrmann_2019].
 
@@ -32,7 +36,7 @@ El origen de los baculovirus ha sido situado hace 310 millones de años en el pe
 
 ![Árbol filogenético reflejando la historia evolutiva de los baculovirus](./assets/filogenia-baculovirus.jpg "ciclo infectivo"){width=5in}
 
-# Composición proteica del virión baculoviral
+## Composición proteica del virión baculoviral
 
 La formación de las nucleocápsides baculovirales puede dividirse en dos etapas separadas que se llevan a cabo en el estroma virogénico: el ensamblaje de cápsides vacías y el empaquetado del genoma viral dentro de estas [@Zhao_2019]. La proteína de cápside mayoritaria, VP39, es la encargada de formar las estructuras helicoidales huecas que recubrirán el genoma viral [@Thiem_1989]. Acompañando a VP39, aparecen otras proteínas de cápside minoritarias, como PP78/83 (involucrada en la translocación mediada por actina de los viriones hacia el núcleo celular) [@Goley_2006], P40/C42 (factor viral que inhibe la degradación de PP78/83) [@Wang_2015], 38K (necesaria para el ensamblaje de la nucleocápside) [@Lai_2018], VP80 (involucrada en la salida de las nucleocápsides del núcleo) [@Marek_2011], VP1054 (necesario para el transporte de VP39 hacia el estroma virogénico) [@Guan_2016] y P24, de función desconocida [@Wolgamot_1993]. El genoma baculoviral empaquetado dentro de la nucleocápside se encuentra bajo la forma de un complejo nucleoproteico junto con la proteína básica P6.9, la cual es necesaria para neutralizar las cargas negativas presentes en los grupos fosfato del ADN [@Tweeten_1980].
 
@@ -42,7 +46,7 @@ El tegumento de la partícula viral, definido como el componente proteico que se
 
 La envoltura lipídica que rodea a la nucleocápside y el tegumento es uno de los puntos de mayor diferencias entre los BVs y los ODVs. Mientras que en los BVs la envoltura se encuentra decorada casi exclusivamente por la proteína de fusión F, y en algunas especies de alphabaculovirus por GP64, los ODVs presentan un complejo macromolecular de más de 500 kDa conformado por un grupo de proteínas, los *per os* infectivity factors (PIFs), necesarias para la infección de las células columnares del instestino [@Wang_2019; @Boogaard_2018]. Los componentes PIF1, PIF2 y PIF3 son los encargados de formar un comlejo núcleo de ~230 kDa al cual luego se agregan PIF0, PIF4, PIF6, PIF7, PIF8 y PIF9 para formar el complejo completo, el cual se ensambla a nivel de la membrana nuclear interna o del retículo endoplasmático y luego se libera como microvesículas que se unen a las nucleocápsides.
 
-# Ciclo infectivo de los baculovirus
+## Ciclo infectivo de los baculovirus
 
 La transmisión horizontal en el ambiente de los baculovirus se da cuando los OBs presentes en follaje contaminado son ingeridos [@Myers_2015; @Williams_2017]. Una vez dentro del tracto gastrointestinal de la larva, los OBs son capaces de atravesarlo hasta llegar al lumen del intestino medio. El elevado pH en esta región del intestino conduce a la desintegración de los OBs y la presencia de proteinasas favorece la eliminación del cáliz/envoltura del poliedro, lo que desemboca en la liberación de los ODVs [@Rohrmann_2019]. La membrana peritrófica es una capa formada por quitina, mucopolisacáridos y proteínas que contribuye a la protección del epitelio del intestino medio. Varias especies de Alpha y Betabaculovirus embeben metaloproteasas (conocidas como *enhancines*, factores virales potencidadores (VEF) o factores sinergísticos) dentro de los OBs con el fin de acelerar la degradación de la membrana peritrófica [@Wang_1997; @Slavicek_2005] y facilitar la entrada de los ODVs a las células epiteliales del intestino. Este proceso denominado infección primaria, se da a través de la fusión de sus membranas mediada por el complejo supramolecular *per os* infectivity factor (PIF) [@Boogaard_2018].
 
@@ -52,7 +56,7 @@ Durante las fases tardías de la infección, una fracción de las nucleocápside
 
 ![**Ciclo infectivo de los baculovirus** **A** Representación seccional de una larva de lepidóptero. Un cuerpo de oclusión (OB) presente en el ambiente es ingerido por la larva comenzando un nuevo ciclo de infección (1). Cuando el OB alcanza el intestino medio (2) se disuelve en el medio alcalino, liberando ODV (3). La membrana peritrófica, que protege a las células epiteliales del contacto directo con el contenido intestinal, es degradada por la acción de proteínas codificadas por el virus y la célula hospedadora presentes en el OB (4), permitiendo el ingreso de los ODV en las células (5). **B** Representación del ciclo de vida de un baculovirus. Los ODV ingresan en la célula a través de la fusión con las microvellosidades (1), liberando las nucleocápsides (NC) en el citoplasma (2). Las NC pueden ingresar en el núcleo (3) donde se desensamblan liberando el genoma viral (4). De esta forma los genes tempranos del virus son transcriptos (6) y traducidos en complejos ribosomales en el citoplasma (7). Algunos productos de estos genes traslocan al núcleo para participar en la replicación viral (5), la transcripción de los genes tardíos (6) y el ensamblado de nuevas NC (9). En las primeras etapas de la infección, las NC son transportadas al citoplasma (10) y emergen de la célula por brotación de la membrana citoplasmática basolateral (11) (12) en forma de viriones brotantes (14) en las regiones donde se acumula la proteína de fusión viral (13), previamente expresada y direccionada por la ruta secretoria. En la etapa tardía de la infección, en cambio, las NC son envueltas en el núcleo y ocluidas en la matriz proteica de poliedrina (15).](./assets/ciclo-infectivo.png "ciclo-infectivo")
 
-# Baculovirus para el control de la oruga militar tardía
+## Baculovirus para el control de la oruga militar tardía
 
 A la fecha se han descripto 2 especies de baculovirus capaces de infectar a la oruga militar tardía: *Spodoptera frugiperda* Multiple Nucleopolyhedrovirus (SfMNPV) y *Spodoptera frugiperda* Granulovirus (SfGV) [@Harrison_2008; @Ferrelli_2018]. Para SfMNPV se han logrado aislar y secuenciar completamente cinco aislamientos de distintas regiones geográficas (EEUU, Brasil, 2 de Nicaragua y Colombia), lo que ha permitido estudiar los patrones de conservación y variabilidad del genoma viral en relación con su adaptación a su hospedador. Sumado a esto, se ha descripto que las poblaciones naturales de SfMNPV presentan una gran variedad de genomas defectivos, los cuales presentan extensas deleciones en su genoma [@Niz_2020]. Si bien no se conocen en profundidad las implicancias funcionales de este fenómeno, estudios recientes sugieren que estas deleciones podrían modular la relación entre velocidad de muerte del hospedador y la cantidad de progenie viral que se produce [@Barrera_2013]. En este sentido, el gen viral ecdysteroid UDP-glucosyltransferase (*egt*), involucrado en la inhibición del proceso de muda y la prolongación del estadío larval del hospedador, juega un papel importante en los genotipos defectivos. El locus donde se ubica *egt* es un "hotspot" que es frecuentemente eliminado del genoma viral a través de deleciones, lo que conduce a un fenotipo de muerte rápida de la larva a costa de un menor rendimiento de OBs por larva infectada [@Sim_n_2012]. En el aislamiento colombiano también se encontró evidencia de un evento de transferencia génica horizontal con una especie de baculovirus cercana (*Spodoptera litura* Nucleopolyhedro virus, SlMNPV), lo que enfatiza las características dinámica y altamente flexibles de las poblaciones naturales de baculovirus [@Barrera_2015].
 
@@ -60,7 +64,7 @@ En el caso de SfGV, su han reportado 2 aislamientos diferentes a la fecha, uno c
 
 Estos baculovirus han sido empleados en distintos contextos para el control biológico de *S. frugiperda*. Al ser SfMNPV el primer baculovirus descubierto que afecta esta plaga, ha tenido una historia de aplicaciones más extensa y es para el que se dispone de mayor información. Las estrategias de mejoramiento de este virus se han centrado mayoritariamente en el descubrimiento y caracterización de aislamientos con propiedades de control deseables, como ser tiempo de muerte rápido, baja dosis letal y estabilidad a campo [@Harrison_2008; @Behle_2012; @Vieira_2012; @Niz_2020]. El uso de abrillantadores ópticos, los cuales proveen protección a los OBs contra los rayos UV, y otros medios de formulación han sido explorados como un medio para extender la potencia de las formulaciones basadas en baculovirus [@Mart_nez_2004; @Villamizar_2009]. Por otra parte, la idea de complementar formulaciones de nucleopoliedrovirus con granulovirus que actúan como potenciadores, debido a la presencia de proteínas de virulencia en su OB, ha sido postulada como un método para incrementar su capacidad pesticida. Recientemente, se ha demostrado que la formulación conjunta de SfMNPV como principio activo con dosis más bajas de SfGV como potenciador presentan una elevada eficacia para el control de *S. frugiperda* [@Cuartas_Ot_lora_2019]. 
 
-# Diversidad genómica en poblaciones naturales de baculovirus
+## Diversidad genómica en poblaciones naturales de baculovirus
 
 La caracterización de nuevos aislamientos de baculovirus se ha desarrollado históricamente a través de la secuenciación de los genes *polh*, *lef8*, y *lef9* , seguido del cálculo de la distancia génetica entre aislamientos empleando una matriz de sustitución Kimura 2-parámetros [@Jehle_2006]. Más recientemente, un método basado en un modelo probabilístico de Poisson ha sido utilizado en la clasificación de mas de 500 aislamientos a aportado detalles relevantes sobre los procesos de diversificación que afectan a los baculovirus [@Theze_2018]. Una observación que surge de a partir de estos estudios es la elevada conservación de un hospedador específico (aunque existan casos de baculovirus generalistas como AcMPNV) y la contribución del tipo de alimentación del hospedador (herbívoro o leñoso) al nicho ecológico del virus. Los patrones de restricción obtenidos a través de la digestión de ADN genómico viral con una enzima de restricción (en general BamHI, EcoRI y HindIII) también han sido de gran utilidad para caracterizar a grandes rasgos la composición genética de los aislamientos de baculovirus y analizar posibles determinantes de patogenicidad [@Miller_1978; @Jehle_2003; @L_op_z_ferber_2003].
 
@@ -70,7 +74,7 @@ Los métodos HTS no solo han permitido la secuenciación de un mayor número de 
 
 \newpage
 
-# Fundamentos y alcance de este trabajo
+## Fundamentos y alcance de este trabajo
 
 Los productos biológicos basados en baculovirus representan una alternativa
 prometedora para disminuir de manera paulatina el uso de productos químicos para
