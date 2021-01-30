@@ -3,6 +3,7 @@ title: Tesis Doctoral
 author: Tomas Masson
 date: 2020
 lang: es-ES
+documentclass: book
 bibliography: references/bibliography.bib
 #mainfont: Carlito-Regular
 #mainfontoptions:
@@ -18,5 +19,9 @@ header-includes:
     - \usepackage{setspace}
     - \doublespacing
     - \usepackage[labelfont=bf]{caption} # Figures name in Bold
+    - \usepackage{fancyhdr}
+    - \pagestyle{fancy}
+    - \renewcommand{\headrulewidth}{1pt} # Remove header ruler
+    - \renewcommand{\footrulewidth}{1pt} # Set footer ruler to 1pt
 ---
 
