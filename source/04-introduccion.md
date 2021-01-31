@@ -76,17 +76,11 @@ Los métodos HTS no solo han permitido la secuenciación de un mayor número de 
 
 ## Fundamentos y alcance de este trabajo
 
-Los productos biológicos basados en baculovirus representan una alternativa
-prometedora para disminuir de manera paulatina el uso de productos químicos para
-el control de S. frugiperda. Sin embargo, su elevada especificidad y los largos tiempos
-de acción hacen económicamente inviable su aplicación a campo. El estudio de las
-bases y mecanismos moleculares que contribuyen a la virulencia y el rango de
-hospedador de los diferentes aislamientos baculovirales es central para acelerar su
-aplicación como bioinsumos. El aislamiento de dos baculovirus autóctonos (SfMNPV y SfGV) con potencial para el control de *S. frugiperda* representa una gran oportunidad para el desarrollo de pesticidas con menor impacto ambiental.
+Los productos biológicos basados en baculovirus representan una alternativa prometedora para disminuir de manera paulatina el uso de productos químicos para el control de *S. frugiperda*. Sin embargo, su elevada especificidad y los largos tiempos de acción hacen económicamente inviable su aplicación a campo. El estudio de las bases y mecanismos moleculares que contribuyen a la virulencia y el rango de hospedador de los diferentes aislamientos baculovirales es central para acelerar su aplicación como bioinsumos. El aislamiento de dos baculovirus autóctonos (SfMNPV y SfGV) con potencial para el control de *S. frugiperda* representa una gran oportunidad para el desarrollo de pesticidas con menor impacto ambiental.
 
 En este contexto, el objetivo principal de esta tesis doctoral es caracterizar los factores involucrados en la adaptación de aislamientos autóctonos de SfMNPV y SfGV a la oruga militar tardía. Además, este trabajo buscar generar herramientas para facilitar el estudio de SfGV a través de cultivos celulares. A partir de esto, se proponen los siguientes objetivos específicos:
 
-- Caracterizar el proteoma de los cuerpos de oclusión de SfGV.
+- Caracterizar el proteoma de los cuerpos de oclusión de SfGV y compararlo contra el proteoma de Epinotia aporema granulovirus (EpapGV), un granulovirus de acción rápida.
 - Realizar un análisis comparativo del perfil de proteínas estructurales descriptas para cuerpos de oclusión en la familia *Baculoviridae*.
 - Investigar la diversidad genética presente en un aislamiento autóctono de SfMNPV y realizar un análisis comparativo con otros aislamientos de este virus.
 - Evaluar la capacidad infectiva de SfGV en la línea celular Sf9 mediante transfecciones de cultivos celulares con DNA genómico viral.
