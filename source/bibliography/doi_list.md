@@ -98,6 +98,7 @@
 @Miller_1978 0.1128/AEM.35.2.411-421.1978 
 @Jehle_2003 10.1007/s00705-003-0104-y
 @Renner_2018 10.1128/JVI.00908-17
+@Murúa_2009 0370-5404
 
 # Agregar manualmente
 @Rohrmann_2019 PMID: 31294936
