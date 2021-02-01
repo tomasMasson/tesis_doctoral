@@ -1,10 +1,12 @@
 ---
 title: Tesis Doctoral
 author: Tomas Masson
-date: 2020
+year: 2021
+department: Departamento de Ciencias Biológicas
+university: Universidad Nacional de La Plata
 lang: es-ES
 documentclass: book
-bibliography: references/bibliography.bib
+bibliography: references.bib
 #mainfont: Carlito-Regular
 #mainfontoptions:
 #- BoldFont=Carlito-Bold
@@ -21,7 +23,16 @@ header-includes:
     - \usepackage[labelfont=bf]{caption} # Figures name in Bold
     - \usepackage{fancyhdr}
     - \pagestyle{fancy}
-    - \renewcommand{\headrulewidth}{1pt} # Remove header ruler
+    - \fancyhf{}
+    - \fancyhead[RO,LE]{Tesis doctoral}
+      #    - \fancyhead[LE]{Guides and tutorials}
+    - \fancyfoot[CE,CO]{\thepage}
+    - \renewcommand{\headrulewidth}{1pt} # Set header ruler to 1pt
     - \renewcommand{\footrulewidth}{1pt} # Set footer ruler to 1pt
+#    - \pagestyle{myheadings}
+#    - \markright{\thepage}
+#    - \markright{\thepage}{\thechapter}
+      #    - \usepackage{fancyhdr}
+      #    - \fancyfoot[LE,RO]{\thepage}
 ---
 
