@@ -1,3 +1,7 @@
+# Agregar manualmente
+@Rohrmann_2019 PMID: 31294936
+
+# Referencias y DOI
 @Montezano_2018 10.4001/003.026.0286
 @Sparks_1979 10.2307/3494083
 @Johnson_1987 10.1017/S1742758400022591
@@ -99,6 +103,16 @@
 @Jehle_2003 10.1007/s00705-003-0104-y
 @Renner_2018 10.1128/JVI.00908-17
 @Murúa_2009 0370-5404
-
-# Agregar manualmente
-@Rohrmann_2019 PMID: 31294936
+@Harrison_2018 10.1099/jgv.0.001107
+@van_Oers_2007a 10.2174/138945007782151333
+@Passarelli_2011 10.1016/j.virol.2011.01.009
+@Sciocco_Cap_2001 10.1128/AEM.67.8.3702-3706.2001
+@Ferrelli_2012 10.1186/1471-2164-13-548
+@Greco_2014 10.1146/annurev-virology-031413-085527
+@Nesvizhskii_2014 10.1038/nmeth.3144
+@Tan_2009 10.1099/vir.0.005934-0
+@Vidick_2013 10.1099/vir.0.005934-0
+@_nce_2010 10.1016/j.virol.2010.05.038
+@B_zier_2017 10.1099/jgv.0.000661
+@Doellinger_2015 10.1371/journal.pone.0141527
+@Perera_2007 10.1128/JVI.02391-06
