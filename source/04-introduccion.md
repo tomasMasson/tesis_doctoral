@@ -1,3 +1,6 @@
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
 # Capítulo 1
 
 \begin{center}{\Huge Introducción}\end{center}\
