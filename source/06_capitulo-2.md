@@ -1,4 +1,4 @@
-# Capítulo 2 \\ bla bla blajK
+# Análisis proteómico de los cuerpos de oclusión de Granulovirus
 
 \begin{center}{\Huge Análisis proteómico de los cuerpos de oclusion de granulovirus}\end{center}\
 

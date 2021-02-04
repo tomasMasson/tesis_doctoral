@@ -25,14 +25,8 @@ header-includes:
     - \pagestyle{fancy}
     - \fancyhf{}
     - \fancyhead[RO,LE]{Tesis doctoral}
-      #    - \fancyhead[LE]{Guides and tutorials}
     - \fancyfoot[CE,CO]{\thepage}
     - \renewcommand{\headrulewidth}{1pt} # Set header ruler to 1pt
     - \renewcommand{\footrulewidth}{1pt} # Set footer ruler to 1pt
-#    - \pagestyle{myheadings}
-#    - \markright{\thepage}
-#    - \markright{\thepage}{\thechapter}
-      #    - \usepackage{fancyhdr}
-      #    - \fancyfoot[LE,RO]{\thepage}
 ---
 
