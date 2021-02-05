@@ -9,4 +9,5 @@ tesis.pdf: *.md references.bib metadata.yml
 		--pdf-engine xelatex \
 		--metadata-file metadata.yml \
 		--citeproc \
+		--number-sections \
 		-o $@

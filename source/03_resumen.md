@@ -1,4 +1,4 @@
-# Resumen
+# Resumen{.unnumbered}
 
 La oruga militar tardía (Fall Armyworm, FAW) es una plaga polífaga voraz que actualmente se distribuye a lo largo de todo el planeta y representa una amenaza para los productores agrícolas. Dos virus perteneciente a la familia *Baculoviridae* (SfMNVPV y SfGV) son capaces de infectar a esta plaga, proporcionando una alternativa para su control biológico sin incurrir en el uso excesivo de pesticidas químicos.
 
