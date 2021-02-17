@@ -34,6 +34,26 @@ En ambas especies de betabaculovirus, el conjunto de proteínas de los OBs compr
 Además de identificar los componentes de los OBs, la abundancia relativa de cada proteína fue estimada a través del cálculo del valor de emPAI, como fue propuesto por Ishihama *et al* [@Ishihama_2005]. El valor de emPAI de la proteína mayoritaria de la cápside viral, VP39, se tomo como valor de normalización para la abundancia proteica. Tomando como valor de corte una abundancia de al menos 10% VP39 emPAI, las proteínas mas abundantes en ambos virus fueron ODV-E18, GP41, Granulin, SOD y Epap95/Sf97, together with VP39. La proteína mayoritaria de cápside (VP39), la proteína que forma el tegumento localizado entre el virión y la envoltura viral (GP41) y el componente proteico mayoritario de la matriz del OB (Granulin) era esperable que se encontraran en grandes cantidades debido a su función estructural básica. Finalmente, Epap95/Sf97 pertenecen a una familia de proteínas presentes en todas las especies de betabaculovirus y ha sido detecta de forma consistente como un componente de los ODVs de ClanGV y PiraGV [@Zhang_2015; @Wang_2011].  
 El contenido génico de los betabaculovirus permanece poco caracterizado, con un gran número de regiones codificantes que solo cuentan con evidencia derivada de predictores automáticos. Nuestros datos proteómicos nos permitieron asignar evidencia experimental *bona fide* para un gran número genes hipotéticos en ambos virus y confirmar la presencia de su producto de traducción asociado ().
 
+\newpage
+\blandscape
+```table
+---
+caption: 'Componentes estructurales del OB de EpapGV'
+include: 'datasets/proteomics/epapgv_ob_proteome.csv'
+---
+```
+
+\newpage
+
+```table
+---
+caption: 'Componentes estructurales del OB de SfGV'
+include: 'datasets/proteomics/tmp'
+---
+```
+\elandscape
+\newpage
+
 ### Anotación proteogenómica de péptidos noveles en los genomas virales 
 
 ### Conservación evolutiva de los componentes estructurales dentro de la familia *Baculoviridae*.
