@@ -4,7 +4,7 @@ author: Tomas Masson
 year: 2021
 department: Departamento de Ciencias Biológicas
 university: Universidad Nacional de La Plata
-lang: es-ES
+#lang: es-ES
 documentclass: book
 bibliography: references.bib
 #mainfont: Carlito-Regular
@@ -19,6 +19,8 @@ link-citations: yes # make citations with hyperlinks
 linestretch: 1.5
 header-includes:
     - \usepackage{setspace}
+    - \usepackage[spanish]{babel}       # Set Spanish as the language
+    - \renewcommand\spanishtablename{Tabla} # Change Cuadro -> Tabla for tables
     - \doublespacing
     - \usepackage[labelfont=bf]{caption} # Figures name in Bold
     - \usepackage{fancyhdr}
@@ -28,5 +30,8 @@ header-includes:
     - \fancyfoot[CE,CO]{\thepage}
     - \renewcommand{\headrulewidth}{1pt} # Set header ruler to 1pt
     - \renewcommand{\footrulewidth}{1pt} # Set footer ruler to 1pt
+    - \usepackage{pdflscape}
+    - \newcommand{\blandscape}{\begin{landscape}}
+    - \newcommand{\elandscape}{\end{landscape}}
 ---
 

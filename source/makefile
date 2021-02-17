@@ -8,6 +8,7 @@ tesis.pdf: *.md references.bib metadata.yml
 		*.md \
 		--pdf-engine xelatex \
 		--metadata-file metadata.yml \
+		-F pantable \
 		--citeproc \
 		--number-sections \
 		-o $@
