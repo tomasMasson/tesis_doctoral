@@ -32,31 +32,76 @@ Este capítulo explora la composición proteíca de los OBs correspondientes a d
 Llevamos a cabo la caracterización del proteoma del OB en dos especies granulovirus a través de MS en tandem acoplada a un paso de separación por cromatografía líquida (liquid chromatography-tandem MS, LC-MS/MS). Para el caso de EpapGV, procesamos dos réplicas biológicas que fueron sometidas a un protocolo de preparación de muestra líquida y luego analizadas por MS. En el caso de SfGV, se analizaron tres réplicas biológicas, dos que fueron sometidas al mismo procesamiento que las muestras de EpapGV y una muestra adicional que fue separada por electroforesis en gel de poliacrilamida con dodecil sulfato de sodio (sodium dodecyl sulphate polyacrilamide gel electrophoresis, SDS-PAGE) antes de ser analizadas por MS. La introducción de un paso adicional de separación nos permitió transformar una muestra compleja de proteínas en submuestras más simples para su caracterización proteómica. Para EpapGV se detectaron un total 56 proteínas diferentes (Tabla 1), mientras que para SfGV se identificar un total de 72 proteínas (Tabla 2).  
 En ambas especies de betabaculovirus, el conjunto de proteínas de los OBs comprende una fracción cercana a la mitad de los ORFs anotados (44% para EpapGV y XX% para SfGV), lo que demuestra que una gran parte de la información dentro del genoma viral es destinada a codificar componentes estructurales (Figura 1). En nuestra muestras no se detectaron ciertas proteínas (PIF3 y desmoplakin para EpapGV, X y Z para *SfGV*) que han sido confirmadas previamente como componentes del virión por western blot y MS [@Braunagel_2003]. Esto podría atribuirse a una degradación proteolítica, bajos niveles de estas proteínas o una ionización deficiente de esos componentes en nuestras muestras.  
 Además de identificar los componentes de los OBs, la abundancia relativa de cada proteína fue estimada a través del cálculo del valor de emPAI, como fue propuesto por Ishihama *et al* [@Ishihama_2005]. El valor de emPAI de la proteína mayoritaria de la cápside viral, VP39, se tomo como valor de normalización para la abundancia proteica. Tomando como valor de corte una abundancia de al menos 10% VP39 emPAI, las proteínas mas abundantes en ambos virus fueron ODV-E18, GP41, Granulin, SOD y Epap95/Sf97, together with VP39. La proteína mayoritaria de cápside (VP39), la proteína que forma el tegumento localizado entre el virión y la envoltura viral (GP41) y el componente proteico mayoritario de la matriz del OB (Granulin) era esperable que se encontraran en grandes cantidades debido a su función estructural básica. Finalmente, Epap95/Sf97 pertenecen a una familia de proteínas presentes en todas las especies de betabaculovirus y ha sido detecta de forma consistente como un componente de los ODVs de ClanGV y PiraGV [@Zhang_2015; @Wang_2011].  
-El contenido génico de los betabaculovirus permanece poco caracterizado, con un gran número de regiones codificantes que solo cuentan con evidencia derivada de predictores automáticos. Nuestros datos proteómicos nos permitieron asignar evidencia experimental *bona fide* para un gran número genes hipotéticos en ambos virus y confirmar la presencia de su producto de traducción asociado ().
+El contenido génico de los betabaculovirus permanece poco caracterizado, con un gran número de regiones codificantes que solo cuentan con evidencia derivada de predictores automáticos. Nuestros datos proteómicos nos permitieron asignar evidencia experimental *bona fide* para un gran número genes hipotéticos en ambos virus y confirmar la presencia de su producto de traducción asociado (para EpapGV se identificaron Epap10, Epap40, Epap48, Epap49, Epap62, Epap71, Epap95, Epap123, Epap126 y Epap127, mientras que para SfGV se detectaron Sf7, Sf9, Sf25, Sf26, Sf28, Sf29, Sf40, Sf45, Sf64, Sf80, Sf100, Sf101, Sf112, Sf127, Sf138, Sf141 and Sf151).
 
-\newpage
 \blandscape
+
 ```table
+
 ---
 caption: 'Componentes estructurales del OB de EpapGV'
 include: 'datasets/proteomics/epapgv_ob_proteome.csv'
 ---
-```
 
-\newpage
+```
 
 ```table
+
 ---
 caption: 'Componentes estructurales del OB de SfGV'
-include: 'datasets/proteomics/tmp'
+include: 'datasets/proteomics/sfgv_ob_proteome.csv'
 ---
+
 ```
+
+\elandscape
+
+### Anotación proteogenómica de nuevos péptidos en el genoma de EpapGV y SfGV
+
+Para identificar proteínas previamente no anotadas, realizamos una búsqueda de péptidos en nuestros datos espectrales utilizando una base de datos teórica conteniendo todos los productos de traducción derivados de los seis marcos de lectura del genoma viral (incluimos todos los ORFs posibles, sin introducir un tamaño mínimo como valor de corte). Detectamos siete péptidos derivados del genoma de EpapGV los cuales no se encontraban anotados previamente [@Ferrelli_2012]. Su secuencia peptídica y su localización genómica se encuentran detalladas en la tabla 2.4. Uno de esos péptidos es coincidente con un ORF de 47 amino ácidos de longitud el cual solapa *epap51* pero con la orientación inversa. Análisis posteriores confirmaron la presencia de este nuevo ORF en otros miembros de la familia *Baculoviridae* y mostraron que se trata de un gene ortólogo de *ac110* [@Javed_2016]. Este gen ha sido descripto como el *per os* infectivity factor 7 (*pif7*) y su producto de traducción solo ha sido detectado en el proteoma del ODV de HearNPV [@Hou_2012] y EpapGV (este estudio). La localización genómica y la orientación de este gen tipo-*ac110* esta conservada dentro del género *Betabaculovirus*, lo que provee evidencia adicional de su conservación evolutiva.   
+Los seis péptidos restantes solapan ORFs anotados (*chitanase*, *dna ligase* and *granulin*) o afectan regiones intergénicas. Dos péptidos se encontraron entre los ORFs *epap48* y *epap49*, y un péptido entre *epap61* y *epap62*. Búsquedas de similitud de secuencia con el software TBLASTN mostraron que solo los péptidos presentes en las secuencia de *chitinase* y *granulin* se encuentran conservados en los *loci* homólogos de *Betabaculovirus* y *Nucleopolyhedrovirus* (Tabla 2.5). 
+
+\blandscape
+
+```table
+
+---
+caption: "Péptidos detectados por MS sin anotación previa"
+include: "datasets/proteomics/epapgv_proteogenomic_peptides.csv"
+---
+
+```
+
+\elandscape
+
+Sorprendentemente, los péptidos comprendidos entre *epap48* y *epap49* cubren casi completamente esta región intergénica de 145 pb (Figura 2.1). *Epap48* codifica una proteína de 446 amino ácidos que se encuentra conservada en el género *Betabaculovirus*. El producto de traducción putativo de *epap49* es una proteína compuesta por 1465 residuos que no presenta ningún ortólogo detectable en otros baculovirus. Los péptidos detectados mediante este enfoque proteogenómico se localizan en el mismo marco de lectura que Epap49, pero no presentan un codon Metionina de inicio en marco (Figura 2.1). Una hipótesis que podría explicar la presencia de estos péptidos es que *Epap48* y *Epap49* podrían ser expresados como una proteína de fusión debido a un evento de cambio de marco +1 (*frameshifting*) cerca del extremo C-terminal de *Epap48*; una validación experimental subsecuente de la presencia del producto de fusión es requerida para confirmar esta hipótesis.  
+  
+
+![Proteína de fusión putativa entre *Epap48* y *Epap49*. **A** Locus genómico de los genes *epap48* (verde) y *epap49* (celeste). Los péptidos detectados a través de MS dentro de la región intergénica están coloreado en violeta. **B** Secuencia genómica y productos de teóricos de traducción para ambos genes. Los codones de inicio y terminación se muestran en rojo. Las coordenadas genómicas corresponde a la secuencia NC_018875](assets/epap48_fusion_peptide.png){width=100%}
+
+### Conservación evolutiva de los componentes estructurales dentro de la familia *Baculoviridae*.
+
+Los reportes de proteomas correspondientes a OBs de baculovirus fueron utilizados para evaluar la conservación evolutiva de los distintos componentes de la particula viral en esta familia. A la fecha, ocho estudios proteómicos han sido desarrollado con ODVs, incluyendo cinco miembros del género *Alphabaculovirus* (AcMNPV, AgMNPV, ChchNPV, MabrNPV and HearNPV), dos del género *Betabaculovirus* (ClanGV y PiraGV) y un *Deltabaculovirus* (CuniNPV) [@Braunagel_2003;@Braconi_2014; @Xu_2011; @Hou_2012; @Hou_2016; @Zhang_2015; @Wang_2011; @Perera_2007]. Nuestro estudio expande estos resultados previos con los proteomas de los OBs de EpapGV y SfGV. Las secuencias de amino ácidos de las proteínas detectadas en los distintos estudios proteómicos fueron agrupadas en grupos de proteínas ortólogas (ortogrupos) usando la estrategia *reciprocal best hit* entre proteomas (Tabla 2.5).
+
+\blandscape
+
+```table
+
+---
+caption: 'Grupos de ortología entre proteínas estructurales presentes en los OBs de la familia Baculoviridae'
+include: 'datasets/proteomics/baculovirus_structural_orthogroups.csv'
+---
+
+```
+
 \elandscape
 \newpage
 
-### Anotación proteogenómica de péptidos noveles en los genomas virales 
+Para cada uno de esos ortogrupos se contabilizó el número de proteomas en los que estaba presente como una medida de su conservación evolutiva. Una clase fue asignada a cada ortogrupo basado en su distribución taxonómica dentro de la familia *Baculoviridae* (core, lepidopteran-specific, genus-specific and species-specific) (Figura 2.2 A). La mayoría de los ortogrupos conservados (presentes en un gran número de proteomas) corresponden a *core genes*. En contraposición, ortogrupos específicos de un grupo reducido de proteomas están asociados con genes específicos de género y especie.  
 
-### Conservación evolutiva de los componentes estructurales dentro de la familia *Baculoviridae*.
+![**Conservación evolutiva del proteoma estructural de los baculovirus**. **A** Conservación de las proteínas presentes en los proteomas de los OBs. La conservación de cada uno de los ortogrupos fue evaluada y puntuada de acuerdo al número de proteomas en los que fueron detectados. La distribución de los grupos de ortólogos dentro de la familia *Baculoviridae* esta marcado con diferentes colores. **B** Las proteínas detectadas en los proteomas de betabaculovirus fueron agrupadas en conjuntos de ortólogas y visualizadas empleando un diagrama de Venn. Un grupo de 34 proteínas aparece de forma consistente en las tres especies virales; los productos de *core genes* se encuentran resaltados en negrita. Dos de esos grupos son proteínas específicas de betabaculovirus (Epap48 y Epap49)](assets/proteome_conservation.png){weight=100%}
+
+Los proteomas de betabaculovirus (ClanGV, EpapGV, PiraGV y SfGV) fueron comparados utilizando un diagrama de Venn (Figura 2.2 B). Del conjunto de proteínas presentes en todos los cuatro virus, BRO, Epap48, Epap95 y Epap126 son los únicos ortogrupos sin ninguna caracterización funcional. Sorprendentemente, Epap95 es uno de las proteínas más abundantes en el OB de EpapGV, de acuerdo a los valores de emPAI. Adicionalmente, Epap126 se encuentra distribuida en miembros de los alphabaculovirus de grupo II y los betabaculovirus (excepto por ClanGV) (Tabla 2.5). Por otra parte, Epap10, Epap49 y Epap62 son proteínas estructuras presentes solo en el OB de EpapGV. Llamativamente, ortólogos *epap10* se encuentran presentes solo en cinco alphabaculovirus que infectan insectos pertenecientes a la familia *Tortricidae*, Choristoneura fumiferana NPV, Choristoneura occidentalis NPV, Choristoneura rosaceana NPV, Cryptophlebia peltastica NPV and Epiphyas postvittana NPV. Esto podría ser el producto de un evento de transferencia génica horizontal ancestral entre alphabaculovirus y betabaculovirus que coinfectaron el mismo hospedador, basandonos en la evidencia proporcionada por la conservación génica.
 
 ## Discusión
 
