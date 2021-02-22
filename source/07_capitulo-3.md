@@ -25,6 +25,59 @@ En este trabajo, solucionamos este problema a través de la caracterización de 
 
 ## Resultados
 
+### Secuenciación profunda de una población de SfMNPV ARG-M
+
+Un aislamiento argentino autóctono de SfMNPV, nombrado ARG-M, fue caracterizado a través de secuenciación masiva profunda utilizando tecnología Illumina por primera vez, lo que nos permitió abordar el estudio de su diversidad genómica. Nuestros datos de secuenciación profunda alcanzaron una cobertura promedio de 52313X (desviación estándar de 4052) para cada posición del genoma. La secuencia genómica consenso de SfMNPV ARG-M está compuesta por 132696 pares de bases y comprende 144 regiones codificantes (Accession number MW162628, Tabla 3.1), de las cuales 143 están presentes en el aislamiento de referencia 3AP2 [@Harrison_2008] y el gen restante corresponde al ORF *sf110a*, presente solo en los aislamientos provenientes de Nicaragua (NicB and NicG) [@Sim_n_2011]. Cuando las diferencias estructurales entre los genomas de SfMNPV ARG-M y el aislamiento 3AP2 fueron examinadas, solo encontramos uno pequeño número de inserciones/deleciones de una longitud menor de 6 pb en regiones no codificantes, con la excepción de una deleción de 31 pb en la región comprendida por el gen *me53* y la secuencia repetitiva *hr1*. Las discrepancias restante entre ambas secuencias genómicas se debieron a SNPs.
+
+\blandscape
+
+```table
+
+---
+caption: 'Secuencias codificantes anotadas en el genoma de SfMNPV ARG-M'
+include: 'datasets/genomics/sfmnpv_coding_regions.csv'
+---
+```
+
+\elandscape
+
+### Diversidad genómica presente en el aislamiento SfMNPV ARG-M
+
+A partir de nuestros datos de secuenciación se detectaron 704 variantes nucleotídicas puntuales intrehospedador (iSNVs) y su frecuencia alélica asociada, como lo reporta LoFreq (Tabla 3.2). La distribución global de las iSNVs resultó ser homogénea dentro del genoma viral y abarcó un amplio rango de frecuencias alélicas (Figura 3.1a). La diversidad genómica de la población de SfMNPV ARG-M fue de 5.3 x 10⁻³ iSNVs por pb. Las iSNVs fueron clasificadas en tres grupos de acuerdo a su impacto predicho en secuencias codificantes (no sinónimas, sinónimas e intergénicas). Aproximadamente, la mitad de las iSNVs corresponden a variantes sinónimas (384), mientras que el resto se distribuye entre no sinónimas (184) e intergénicas (131) (Figura 3.1b). Adicionalmente, se encontraron cuatro variantes que introducen codones de terminación prematuros (Gluc357\* *sf41*, Glu392\* *sf43*, Tyr73\* *sf47* y Cys6\* *sf110a*) y una variante que modificaba un codon de inicio (*sf45*). Como es esperable, las variantes sinónimas presentaron una frecuencia alélica media mayor frente a los otros grupos, probablemente debido a su menor impacto estructural en comparación con las variantes no sinónimas que afectan regiones codificantes o las variantes intergénicas dentro de regiones reguladoras (Figura 3.1c). Sorprendentemente, 31% (54 de 184) de las variantes no sinónimas mostraron una frecuencia alélica mayor a 0.25, lo que sugiere que niveles significantes de proteoformas alternativas del mismo gen pueden coexistir durante la infección por SfMNPV.
+
+![Diversida genómica dentro de una población de SfMNPV ARG-M. *A* Distribución de iSNVs sinónimas (amarillo), no sinónimas (violeta) e intergénicas (naranja) a lo largo del genoma. *B* Número de iSNVs detectadas para cada categoría. *C* Gráfico de caja mostrando la frecuencia alélicas para cada categoría de iSNV.](assets/sfmnpv_genomic_diversity.png)
+
+\blandscape
+
+```table
+
+---
+caption: 'Variantes nucleotídicas puntuales intrahospedador (iSNVs) detectadas con Lofreq'
+include: 'datasets/genomics/sfmnpv_snv.csv'
+---
+
+```
+
+\elandscape
+
+Basados en el número de iSNVs no sinónimas, los genes de SfMNPV ARG-M fueron ordenados de acuerdo a su diversidad genética. Identificamos *sf29*, *odv-e66a*, *odv-66b*, *sf23*, *p40*, *pif-0*, *sf110a*, *lef-6*, *lef-7*, *sf68*, *vp80*, *rr1*, *94k* y *p47* como el 10% de genes más variables. Otra observación que emerge de nuestros datos es que aproximadamente el 57% (105 de 184) de las iSNVs no sinónimas introducen un cambio en la polaridad del amino ácido que afectan, lo que podría llevar a modificaciones en las propiedades biofísicas de las proteínas virales, como ha sido descripto anteriormente (@Chateigner_2015). De estas variantes que afectan la polaridad, solo 27 afectaron a *core genes*, mientras que las restantes 78 se localizaron dentro de genes non-core, enfatizando las mayores restricciones de los *core genes* para incorporar cambios drásticos en sus secuencias.  
+Variantes estructurales genómicas (SVs), las cuales comprenden deleciones, inserciones, inversiones, duplicaciones y translocaciones, representan otra fuente de diversidad en poblaciones de baculovirus y otros grandes virus con genoma a ADN [@Loiseau_2020]. Para SfMNPV, deleciones que afectan el locus *egt* han sido reportadas previamente como la principal SV [@Serrano_2012; @Niz_2020]. Decidimos investigar la presencia de otras SVs en nuestro conjunto de datos con el fin de complementar el cuerpo de conocimiento existente respecto a este tema. Utilizando Delly y Lumpy como asignadores de SVs, obtuvimos 13 SVs detectadas con precisión de 1 pb por ambos programas (Tabla 3.3). Recuperamos dos deleciones largas que comprenden la region 22000-26000 y llevan a la eliminación completa del gene *egt*, en acuerdo con los reportes previos. Además, dos SVs nuevas comprenden dos deleciones largas que eliminan porciones significativas del genoma (36.5 y 54.2 Kpb), cinco deleciones pequeñas (afectando a *f-protein*, *pif-1*, *odv-e66a* y *cg30*), una inversión de 52.8 Kpb y tres duplicaciones (4.3, 5.0 y 9.8 Kpb). Utilizando el soporte de lecturas para cada SV y la cobertura media de nuestros datos, se realizó una estimación de la frecuencia por genoma de cada SV, de manera similar al enfoque propuesto previamente [@Gilbert_2014]. Las duplicaciones y deleciones presentaron una frecuencia en el rango de 1.9 x 10⁻⁵-1.7 x 10⁻³, pero las deleciones afectando los genes *egt* y *odv-e66a*, junto con el evento de inversión, presentaron frecuencias superiores (2.3 x 10⁻³-1.2 x 10⁻²).
+
+\blandscape
+
+```table
+
+---
+caption: 'Variantes estructurales detectadas con Delly y Lumpy'
+include: 'datasets/genomics/sfmnpv_sv.csv'
+---
+
+```
+
+\elandscape
+
+### Diversidad genética dentro de los aislamientos geográficos de SfMNPV
+
 ## Discusión
 
 ## Materiales y Métodos

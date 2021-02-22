@@ -179,3 +179,6 @@
 @Weaver_2018 10.1093/molbev/msx335
 @M_sz_ros_2018 10.1093/nar/gky384
 @Larsson_2014 10.1093/bioinformatics/btu531
+@Loiseau_2020 10.1093/ve/vez060
+@Serrano_2012 10.1128/aem.03021-12
+@Gilbert_2014 10.1038/ncomms4348
