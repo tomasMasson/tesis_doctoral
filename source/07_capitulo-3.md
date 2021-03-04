@@ -128,7 +128,7 @@ Sorprendentemente, se encontraron dos péptidos codificados por la región inter
 
 ### Larvas y virus
 
-Larvas de *E.* *aporema* y *S.* *frugiperda* fueron recolectadas en los campos de la estación experimental del Instituto Nacional de Tecnología Agropecuaria (INTA) y utilizadas para establecer una colonia dentro del Instituto de Biotecnología y Biología Molecular (IBBM). Un permiso fue concedido por el INTA, la autoridad responsable de la estación experimental donde se llevo a cabo la recolección de los especímenes. La colonia se mantuvo con un a dieta artificial y un período de luz controlada (16 horas de luz). Los aislamientos virales utilizados en este estudio son los reportados previamente por nuestro laboratorio [@Ferrelli_2012; @Ferrelli_2018]: EpapGV (Refseq ID NC___018875) y SfGV (Refseq ID MH170055). 
+Larvas de *E.* *aporema* y *S.* *frugiperda* fueron recolectadas en los campos de la estación experimental del Instituto Nacional de Tecnología Agropecuaria (INTA) y utilizadas para establecer una colonia dentro del Instituto de Biotecnología y Biología Molecular (IBBM). Un permiso fue concedido por el INTA, la autoridad responsable de la estación experimental donde se llevo a cabo la recolección de los especímenes. La colonia se mantuvo con un a dieta artificial y un período de luz controlada (16 horas de luz). Los aislamientos virales utilizados en este estudio son los reportados previamente por nuestro laboratorio [@Ferrelli_2012; @Ferrelli_2018]: EpapGV (Refseq ID NC_018875) y SfGV (Refseq ID MH170055). 
 
 ### Producción y purificación de los cuerpos de oclusión (OB)
 
