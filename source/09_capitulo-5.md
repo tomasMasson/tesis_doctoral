@@ -1,3 +1,5 @@
-# Conclusiones
+# Conclusiones y perspectivas finales
 
-# Perspectivas
+## Conclusiones
+
+## Perspectivas

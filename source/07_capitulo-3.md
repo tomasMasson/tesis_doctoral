@@ -81,21 +81,7 @@ Sorprendentemente, los péptidos comprendidos entre *epap48* y *epap49* cubren c
 
 ### Conservación evolutiva de los componentes estructurales dentro de la familia *Baculoviridae*.
 
-Los reportes de proteomas correspondientes a OBs de baculovirus fueron utilizados para evaluar la conservación evolutiva de los distintos componentes de la particula viral en esta familia. A la fecha, ocho estudios proteómicos han sido desarrollado con ODVs, incluyendo cinco miembros del género *Alphabaculovirus* (AcMNPV, AgMNPV, ChchNPV, MabrNPV and HearNPV), dos del género *Betabaculovirus* (ClanGV y PiraGV) y un *Deltabaculovirus* (CuniNPV) [@Braunagel_2003;@Braconi_2014; @Xu_2011; @Hou_2012; @Hou_2016; @Zhang_2015; @Wang_2011; @Perera_2007]. Nuestro estudio expande estos resultados previos con los proteomas de los OBs de EpapGV y SfGV. Las secuencias de amino ácidos de las proteínas detectadas en los distintos estudios proteómicos fueron agrupadas en grupos de proteínas ortólogas (ortogrupos) usando la estrategia *reciprocal best hit* entre proteomas (Tabla 2.5).
-
-\blandscape
-
-```table
-
----
-caption: 'Grupos de ortología entre proteínas estructurales presentes en los OBs de la familia Baculoviridae'
-include: 'datasets/proteomics/baculovirus_structural_orthogroups.csv'
----
-
-```
-
-\elandscape
-\newpage
+Los reportes de proteomas correspondientes a OBs de baculovirus fueron utilizados para evaluar la conservación evolutiva de los distintos componentes de la particula viral en esta familia. A la fecha, ocho estudios proteómicos han sido desarrollado con ODVs, incluyendo cinco miembros del género *Alphabaculovirus* (AcMNPV, AgMNPV, ChchNPV, MabrNPV and HearNPV), dos del género *Betabaculovirus* (ClanGV y PiraGV) y un *Deltabaculovirus* (CuniNPV) [@Braunagel_2003;@Braconi_2014; @Xu_2011; @Hou_2012; @Hou_2016; @Zhang_2015; @Wang_2011; @Perera_2007]. Nuestro estudio expande estos resultados previos con los proteomas de los OBs de EpapGV y SfGV. Las secuencias de amino ácidos de las proteínas detectadas en los distintos estudios proteómicos fueron agrupadas en grupos de proteínas ortólogas (ortogrupos) usando la estrategia *reciprocal best hit* entre proteomas (Tabla 2.5).  
 
 Para cada uno de esos ortogrupos se contabilizó el número de proteomas en los que estaba presente como una medida de su conservación evolutiva. Una clase fue asignada a cada ortogrupo basado en su distribución taxonómica dentro de la familia *Baculoviridae* (core, lepidopteran-specific, genus-specific and species-specific) (Figura 2.2 A). La mayoría de los ortogrupos conservados (presentes en un gran número de proteomas) corresponden a *core genes*. En contraposición, ortogrupos específicos de un grupo reducido de proteomas están asociados con genes específicos de género y especie.  
 
