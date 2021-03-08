@@ -1,0 +1,30 @@
+
+
+\usepackage{setspace}
+
+% Set margins
+\usepackage[top=1in,bottom=1in,left=1in,right=1in]{geometry}
+
+% Set Spanish as the language
+\usepackage[spanish]{babel}
+
+% Change Cuadro -> Tabla for tables
+\renewcommand\spanishtablename{Tabla} 
+
+\doublespacing
+
+% Figures names in Bold
+\usepackage[labelfont=bf]{caption}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[RO,LE]{Tesis doctoral}
+\fancyfoot[CE,CO]{\thepage}
+% Set header ruler to 1pt
+\renewcommand{\headrulewidth}{1pt} 
+% Set footer ruler to 1pt
+\renewcommand{\footrulewidth}{1pt}
+\usepackage{pdflscape}
+\newcommand{\blandscape}{\begin{landscape}}
+\newcommand{\elandscape}{\end{landscape}}
