@@ -1,9 +1,11 @@
 ---
-title: Tesis Doctoral
+title: Caracterización de baculovirus autóctonos para el control de la oruga militar tardía (Spodoptera frugiperda)
+subtitle: Tesis doctoral
 author: Tomas Masson
-year: 2021
-department: Departamento de Ciencias Biológicas
-university: Universidad Nacional de La Plata
+year: \today
+institute: Facultad de Ciencias Exactas, Universidad Nacional de La Plata
+titlegraphic: assets/betabaculovirus_model.png
+logo: assets/collinear_region.png
 #lang: es-ES
 #documentclass: book
 #bibliography: references.bib

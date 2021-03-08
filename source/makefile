@@ -6,6 +6,7 @@ references.bib: bibliography/*
 tesis.pdf: *.md references.bib metadata.yml
 	pandoc  \
 		*.md \
+		--template=template.tex \
 		--include-in-header=preamble.tex \
 		--variable=fontsize:11pt \
 		--variable=papersize:a4paper \
