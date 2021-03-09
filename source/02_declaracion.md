@@ -2,4 +2,4 @@ El presente trabajo de tesis para optar al grado de Doctor en Ciencias Biológic
 
 Confirmo que el trabajo y los resultados presentados en esta tesis son propios. Toda información derivada de otras fuentes ha sido indicada en la tesis.
 
-\newpage
+\pagenumbering{gobble}

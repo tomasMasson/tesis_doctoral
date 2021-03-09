@@ -4,4 +4,7 @@ La oruga militar tardía (Fall Armyworm, FAW) es una plaga polífaga voraz que a
 
 El objetivo de este trabajo fue la caracterización de los aislamientos argentinos de SfMNPV y SfGV a través de distintas tecnologías ómicas, con el fin de profundizar nuestro conocimiento sobre los mecanismos de adaptación del virus a su hospedador. En última instancia, este conocimiento será empleado para mejorar la aplicabilidad de estos virus como biopesticidas.
 
+\pagenumbering{roman}
+\setcounter{page}{1}
+
 \newpage
