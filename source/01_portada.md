@@ -25,6 +25,8 @@
 
         \par\noindent\rule{\textwidth}{0.4pt}
 
+        \vspace{1cm}
+
         \Large
         Tesista: Tomás Masson \\
         Director: Dr. Prof. Víctor Romanowski \\
