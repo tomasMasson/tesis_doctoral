@@ -9,7 +9,7 @@
         Universidad Nacional de La Plata \\
         \Large
         Facultad de Ciencias Exactas \\
-        Departemento de Ciencias Biológicas
+        Departamento de Ciencias Biológicas
 
         \vspace{1cm}
 
@@ -30,7 +30,7 @@
         \Large
         Tesista: Tomás Masson \\
         Director: Dr. Prof. Víctor Romanowski \\
-        Codirectora: Dr. María Leticia Ferrelli \\
+        Directora: Dra. María Leticia Ferrelli \\
         Año: 2021
 
     \end{center}
