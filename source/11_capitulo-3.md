@@ -59,6 +59,14 @@ include: 'datasets/proteomics/sfgv_ob_proteome.csv'
 
 \elandscape
 
+Se compararon la sintenia de los genes codificantes para las proteínas estructurales de los OBs. 
+
+![Regiones codificantes de las proteínas estructurales presentes en los OBs de EpapGV](assets/proteome_genome_diagram_epapgv.png){width=100%}
+
+![Regiones codificantes de las proteínas estructurales presentes en los OBs de SfGV](assets/proteome_genome_diagram_sfgv.png){width=100%}
+
+\newpage
+
 ### Anotación proteogenómica de nuevos péptidos en el genoma de EpapGV y SfGV
 
 Para identificar proteínas previamente no anotadas, realizamos una búsqueda de péptidos en nuestros datos espectrales utilizando una base de datos teórica conteniendo todos los productos de traducción derivados de los seis marcos de lectura del genoma viral (incluimos todos los ORFs posibles, sin introducir un tamaño mínimo como valor de corte). Detectamos siete péptidos derivados del genoma de EpapGV los cuales no se encontraban anotados previamente [@Ferrelli_2012]. Su secuencia peptídica y su localización genómica se encuentran detalladas en la tabla 2.4. Uno de esos péptidos es coincidente con un ORF de 47 amino ácidos de longitud el cual solapa *epap51* pero con la orientación inversa. Análisis posteriores confirmaron la presencia de este nuevo ORF en otros miembros de la familia *Baculoviridae* y mostraron que se trata de un gene ortólogo de *ac110* [@Javed_2016]. Este gen ha sido descripto como el *per os* infectivity factor 7 (*pif7*) y su producto de traducción solo ha sido detectado en el proteoma del ODV de HearNPV [@Hou_2012] y EpapGV (este estudio). La localización genómica y la orientación de este gen tipo-*ac110* esta conservada dentro del género *Betabaculovirus*, lo que provee evidencia adicional de su conservación evolutiva.   
