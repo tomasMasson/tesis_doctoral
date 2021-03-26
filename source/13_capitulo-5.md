@@ -18,6 +18,8 @@ En conclusión, los resultados presentados aquí muestran que a través de disti
 
 ## Perspectivas
 
+- Validar experimentalmente la presencia del producto de fusión Epap48-49.
+
 - Realizar ensayos de co-transfección del ADN genómico de SfGV junto con los plásmidos de expresión de genes sinergizantes y evaluar sus efectos morfológicos.
 
 - LLevar a cabo ensayos de purificación por afinidad seguida del análisis por espectrometría de masas para caracterizar los posibles interactores de Epap95/Spfr101. 
