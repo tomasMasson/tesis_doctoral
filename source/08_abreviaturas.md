@@ -22,6 +22,7 @@
 \textbf{OB} \> Occlusion body (cuerpo de oclusión) \\
 \textbf{ODV} \> Occlusion-derived virus (virus derivados de oclusión) \\
 \textbf{Pb} \> Pares de bases \\
+\textbf{PCR} \> Polymerase chain reaction (Reacción en cadena de la polimerasa) \\
 \textbf{PIF} \> \textit{Per os} infectivity factor (factor de infectividad oral) \\
 \textbf{SDS-PAGE} \> Sodium dodecyl sulphate polyacrilamide gel electrophoresis \\
 \textbf{SfGV} \> \textit{Spodoptera frugiperda} Granulovirus \\
