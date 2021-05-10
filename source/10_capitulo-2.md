@@ -51,16 +51,17 @@ Sumado a esto, se construyeron vectores para expresar en células de insecto las
 
 ## Discusión y perspectivas
 
-En este capítulo presentamos los resultados preliminares obtenidos con respecto a la caracterización del proceso replicativo de SfGV en cultivo celular. A partir de la transfección de DNA de AcMNPC-DsRed, confirmamos que esta metodología es aplicable para estudiar el ciclo infectivo de los baculovirus en cultivo celular. Estos datos sugieren que la transfección de DNA viral por si sola no sería suficiente para desencadenar un proceso infectivo que lleve a un efecto citopático apreciable. Resultados similares han sido reportados en otros granulovirus, como el caso de AgseGV [@Alletti_2017], lo que indicaría que la entrada del DNA genómico de granulovirus no es capaz de elicitar efectos citopáticos o los estos son muy sutiles para ser evidenciados mediante microscopía.
+En este capítulo presentamos los resultados preliminares obtenidos con respecto a la caracterización del proceso replicativo de SfGV en cultivo celular. A partir de la transfección de DNA de AcMNPC-DsRed, confirmamos que esta metodología es aplicable para estudiar el ciclo infectivo de los baculovirus en cultivo celular. Estos datos sugieren que la transfección de DNA viral por si sola no sería suficiente para desencadenar un proceso infectivo que lleve a un efecto citopático apreciable. Resultados similares han sido reportados en otros granulovirus, como el caso de AgseGV [@Alletti_2017], lo que indicaría que la entrada del DNA genómico de granulovirus no es capaz de elicitar efectos citopáticos o los estos son muy sutiles para ser evidenciados mediante microscopía.  
 
-En este sentido, una optimización posterior del ensayo de PCR cuantitativa será necesario para lograr reproducibilidad para medir los niveles de DNA viral y su variación luego de la transfección. Una vez logrado esto, las construcciones ya preparadas podrán ser utilizadas para evaluar si durante una cotransfección del DNA genómico viral junto con los genes *ie-1*, *gp64* o *p35* se observa un incremento en los niveles de replicación viral.
+Como alternativa, decidimos poner a punto una metodología para cuantificar de forma sensible los niveles de DNA viral como una alternativa para estudiar el proceso infectivo de los granulovirus. En este sentido, la optimización en la preparación de muestras de DNA total a partir de cultivo celular resultará importante para aplicar una metodología de PCR cuantitativa para la medición de los niveles de DNA viral y su variación luego de la transfección. Una vez logrado esto, las construcciones ya preparadas podrán ser utilizadas para evaluar si durante una cotransfección del DNA genómico viral junto con los genes *ie-1*, *gp64* o *p35* se observa un incremento en los niveles de replicación viral.  
 
 ## Materiales y Métodos
 
 ### Células y virus
 
-Las células Sf9 ^TM^, (derivadas de *S. frugiperda*) fueron mantenidas a  27°C  en  medio  de Grace  (Invitrogen^TM^) suplementado con 10%  de  suero  fetal  bovino (Internegocios).  
-AcMNPV DsRed fue propagado en monocapa de células Sf9^TM^, mientras que SfGV fue amplificado y purificado a partir de larvas infectadas. Brevemente, larvas de *S.* *frugiperda* fueron recolectadas en los campos de la estación experimental del Instituto Nacional de Tecnología Agropecuaria (INTA) y utilizadas para establecer una colonia dentro del Instituto de Biotecnología y Biología Molecular (IBBM). La colonia se mantuvo con un a dieta artificial y un período de luz controlada (16 horas de luz). 
+Las células Sf9 ^TM^, (derivadas de *S. frugiperda*) fueron mantenidas a  27°C  en  medio Grace's  (Invitrogen^TM^) suplementado con 10%  de  suero  fetal  bovino (Internegocios^TM^).  
+
+El stock viral de AcMNPV-DsRed fue propagado mediante infección en monocapa de células Sf9^TM^, mientras que SfGV fue amplificado y purificado a partir de larvas infectadas. Brevemente, larvas de *S.* *frugiperda* fueron recolectadas en los campos de la estación experimental del Instituto Nacional de Tecnología Agropecuaria (INTA) y utilizadas para establecer una colonia dentro del Instituto de Biotecnología y Biología Molecular (IBBM). La colonia se mantuvo con un a dieta artificial y un período de luz controlada (16 horas de luz). 
 
 ### Clonado molecular de los genes *ie-1*, *gp64* y *p35*
 
