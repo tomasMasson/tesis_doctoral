@@ -24,7 +24,7 @@
 \textbf{Pb} \> Pares de bases \\
 \textbf{PCR} \> Polymerase chain reaction (Reacción en cadena de la polimerasa) \\
 \textbf{PIF} \> \textit{Per os} infectivity factor (factor de infectividad oral) \\
-\textbf{RT}-PCR \> Reverse transcription polymerase chain reaction \\
+\textbf{RT-PCR} \> Reverse transcription polymerase chain reaction \\
 \textbf{SDS-PAGE} \> Sodium dodecyl sulphate polyacrilamide gel electrophoresis \\
 \textbf{SfGV} \> \textit{Spodoptera frugiperda} Granulovirus \\
 \textbf{SfMNPV} \> \textit{Spodoptera frugiperda} Multiple Nucleopolyhedrovirus \\

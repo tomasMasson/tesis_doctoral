@@ -1,13 +1,13 @@
-Muestra,CT
-acmnpv_mock_1,No detectado
-acmnpv_mock_2,32
-acmnpv_mock_3,33
-acmnpv_24h_1,33
-acmnpv_24h_2,30
-acmnpv_24h_3,29
-acmnpv_48h_1,27
-acmnpv_48h_2,28
-acmnpv_48h_3,28
-acmnpv_72h_1,25
-acmnpv_72h_2,34
-acmnpv_72h_3,28
+DNA AcMNPV,Tiempo postranfección (horas),Ct
+- (mock),72,No detectado
+- (mock),72,32
+- (mock),72,33
++,24,33
++,24,30
++,24,29
++,48,27
++,48,28
++,48,28
++,72,25
++,72,34
++,72,28
