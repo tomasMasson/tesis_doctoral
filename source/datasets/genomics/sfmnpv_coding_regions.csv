@@ -1,4 +1,4 @@
-ORF_number,Start,Stop,Polarity,Gene,Protein,SfMNPV-3AP2_ortholog,AcMNPV_ortholog
+Número_ORF,Inicio,Terminación,Polaridad,Gen,Proteína,SfMNPV-3AP2,AcMNPV
 ORF1,1,741,+,polh,Polyhedrin,sf1,ac8
 ORF2,806,2194,-,orf1629,PP78/82,sf2,ac9
 ORF3,2193,3029,+,pk-1,PK-1,sf3,ac10
