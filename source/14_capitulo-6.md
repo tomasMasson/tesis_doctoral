@@ -9,7 +9,7 @@
 ```table
 
 ---
-caption: 'Grupos de ortología entre proteínas estructurales presentes en los OBs de la familia Baculoviridae'
+caption: 'Grupos de ortología entre proteínas estructurales presentes en los OBs de la familia Baculoviridae. En cada celda se indica el número de ORF para cada genoma.'
 include: 'datasets/proteomics/baculovirus_structural_orthogroups.csv'
 ---
 
@@ -25,7 +25,7 @@ include: 'datasets/proteomics/baculovirus_structural_orthogroups.csv'
 ```table
 
 ---
-caption: 'Variantes nucleotídicas puntuales intrahospedador (iSNVs) detectadas con Lofreq'
+caption: 'Variantes nucleotídicas puntuales intrahospedador (iSNV) detectadas con Lofreq'
 include: 'datasets/genomics/sfmnpv_snv_long.csv'
 ---
 

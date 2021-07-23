@@ -19,7 +19,7 @@
 
         \Large
         Trabajo de Tesis Doctoral: \\
-        Caracterización de baculovirus autóctonos para el control de la oruga militar tardía (\textit{Spodoptera frugiperda})
+        \textbf{Caracterización de baculovirus autóctonos para el control de la oruga militar tardía (\textit{Spodoptera frugiperda})}
 
         \vspace{1cm}
 

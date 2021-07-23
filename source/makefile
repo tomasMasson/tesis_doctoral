@@ -17,8 +17,11 @@ tesis.pdf: *.md references.bib
 		--variable=documentclass:book \
 		--variable=link-citations:yes \
 		--pdf-engine xelatex \
-		--filter pantable \
+		--lua-filter=short-captions.lua \
+		--filter=pantable \
 		--bibliography=references.bib \
 		--citeproc \
+		--csl=nature.csl \
 		--number-sections \
 		--output $@
+
