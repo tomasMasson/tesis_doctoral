@@ -1,9 +1,9 @@
 ---
-title: "Caracterización de baculovirus autóctonos para el control de la oruga militar tardía (*Spodoptera frugiperda*)"
-author: "Tomas Masson"
-institute: "Departmento de Ciencias Biológicas, Facultad de Ciencias Exactas, Universidad Nacional de La Plata"
-date: 
-- \today
+#title: "Caracterización de baculovirus autóctonos para el control de la oruga militar tardía (*Spodoptera frugiperda*)"
+#author: "Tomas Masson"
+#institute: "Departmento de Ciencias Biológicas, Facultad de Ciencias Exactas, Universidad Nacional de La Plata"
+#date: 
+#- \today
 theme: default
 colortheme: seahorse
 aspectratio: 169
@@ -11,20 +11,26 @@ aspectratio: 169
 
 # Introducción
 
-## Cogollero del maíz (*Spodoptera frugiperda*)
+## El cogollero del maíz, también conocido como oruga militar tardía, provoca enormes pérdidas agrícolas a nivel mundial
 
-![](assets/spodoptera-frugiperda.png){height=60%}
+\begin{center}
+        \includegraphics[width=14cm]{assets/fall-armyworm.png}
+\end{center}
 
-## Control biológico de plagas
+*S. frugiperda* genera pérdidas por US\$2000 millones en África (estimaciones del CABI, Centre for Agriculture and Biosciences International)
 
-![](assets/control_biologico.png){height=60%}
+## Existen diversas herramientas para el control de *S. frugiperda*
 
-## Baculovirus
+\begin{center}
+        \includegraphics[height=7cm]{assets/control_biologico.png}
+\end{center}
+
+## Los baculovirus pueden aplicarse como pesticidas biológicos específicos de lepidópteros
 
 ::: columns
 
 :::: column
-- Genoma circular a DNA con un tamaño de 80 a 200 Kpb
+- Genoma circular a DNA con un tamaño de 80 a 200 kpb
 - Codifican entre 60 y 180 genes
 - Rango de hospedador estrecho
 - Potencial como biopesticidas para el control de diversas plagas
@@ -35,160 +41,237 @@ aspectratio: 169
 ::::
 :::
 
-## Estructura del virión baculoviral
+Se han descripto diversos baculovirus capaces que infectar a *S. frugiperda* (SfMNPV y SfGV)
 
-![](assets/virion-baculovirus.png){height=80%}
+## Los cuerpos de oclusión (OB) de los baculovirus les confieren estabilidad frente a los factores ambientales
 
-## Ciclo biologico baculovirus
 
-![](assets/ciclo-infectivo.png){height=80%}
+\begin{center}
+        \includegraphics[height=14cm]{assets/virion-baculovirus.png}
+\end{center}
 
-## Baculovirus para el control de *S. frugiperda*
+## El ciclo infectivo de los baculovirus involucra la entrada a través del epitelio intestinal y la posterior dispersión dentro del hospedador
 
-::: columns
+\begin{center}
+        \includegraphics[height=10cm]{assets/ciclo-infectivo2.png}
+\end{center}
 
-:::: column
-![](assets/){height=40%}
-::::
+## La partícula infectiva en los Nucleopoliedrovirus se compone de múltiples genotipos virales
 
-:::: column
-![](assets/){height=40%}
-::::
-:::
+\begin{center}
+        \includegraphics[height=14cm]{assets/unidad-infectiva.png}
+\end{center}
 
-## Fundamento y alcance de este trabajo
+## Los OB de los Granulovirus contienen proteínas capaces de potenciar la infectividad oral de los Nucleopoliedrovirus
 
-Buscamos investigar los factores moleculares involucrados en la adaptación de SfGV y SfMNPV al cogollero del maíz, con el fin de comprender las bases de su virulencia.
+\begin{center}
+        \includegraphics[height=14cm]{assets/potenciacion-gv.png}
+\end{center}
 
-## Objetivos específicos
+## La combinación de un Nucleopoliedrovirus y un Granulovirus específicos para *S. frugiperda* podría resultar en biopesticidas más eficaces
 
-- Caracterizar el proteoma de los OB de SfGV y EpapGV, dos granulovirus con propiedades infectivas disímiles
+\begin{center}
+        \includegraphics[height=7cm]{assets/resumen.png}
+\end{center}
+
+## Estudiar los aspectos moleculares que contribuyen a la efectividad de las formulaciones mixtas (SfMNPV/SfGV) frente a *S. frugiperda*
+
+- Caracterizar los componentes proteicos conservados en los OB de granulovirus
+
+
 - Investigar la diversidad genética presente en un aislamiento argentino de SfMNPV
-- Evaluar la capacidad infectiva de SfGV en la línea celular Sf9
 
-# Proteóma de los cuerpos de oclusión de granulovirus
+
+- Evaluar la posibilidad de producir OB de SfGV mediante cultivo celular
+
+# Estudio de la composición proteica de los cuerpos de oclusión de SfGV y EpapGV
 
 ## Metodología experimental para el estudio del proteoma de granulovirus
 
-![](assets/ms_workflow.png){height=70%}
+\begin{center}
+        \includegraphics[height=7cm]{assets/ms_workflow.png}
+\end{center}
 
-## Proteoma de los cuerpos de oclusión de EpapGV y SfGV 
+## Los OB de ganulovirus incorporan un gran número de proteínas "no estructurales"
 
-::: columns
+\begin{center}
+        \includegraphics[height=7cm]{assets/proteome_genome_diagram_sfgv_slides.png}
+\end{center}
 
-:::: column
+## Una región genómica densamente poblada con genes estructurales está conservada en los genomas de NPV y GV 
 
-EpapGV
+\begin{center}
+        \includegraphics[height=7cm]{assets/collinear_region_slides.png}
+\end{center}
 
-![](assets/proteome_genome_diagram_epapgv.png){height=80%}
+## Mediante una búsqueda proteogenómica se identificó un homólogo del *core gene ac-110* presente en EpapGV
 
-::::
+\begin{center}
+        \includegraphics[height=5cm]{assets/ac110-like_gene_slides.png}
+\end{center}
 
-:::: column
-
-SfGV
-
-![](assets/proteome_genome_diagram_sfgv.png){height=80%}
-
-::::
-
-:::
-
-## Región colineal conservada en baculovirus
-
-![](assets/collinear_region.png){height=70%}
-
-## Homólogo de *ac-110* presente en EpapGV
-
-![](assets/ac110-like_gene.png){height=70%}
-
-## Posible proteína de fusión Epap48-Epap49
+## Los datos espectrales proveen evidencia de una posible proteína de fusión Epap48-Epap49
 
 ![](assets/epapgv_proteogenomics.png){height=80%}
 
-## Conservación evolutiva del proteoma de OB en granulovirus
+## Los OB de los granulovirus presentan un grupo de proteínas estructurales conservadas 
 
-![](assets/betabaculovirus_proteome_conservation_slides.png){height=80%}
+\begin{center}
+        \includegraphics[height=6cm]{assets/betabaculovirus_proteome_conservation_slides.png}
+\end{center}
 
-## Modelo semi-cuantitativo del proteoma de granulovirus
+## A partir de los datos de abundancia de MS se construyó un modelo semi-cuantitativo del proteoma del OB de granulovirus
 
-![](assets/betabaculovirus_model.png){height=70%}
+\begin{center}
+        \includegraphics[height=6cm]{assets/betabaculovirus_model.png}
+\end{center}
 
-## Spfr101, una posible proteína amiloide?
+## Spfr101, uno de los componentes mayoritario del OB de SfGV, forma agregados en cultivo celular
 
-::: columns
+\begin{center}
+        \includegraphics[height=7cm]{assets/spfr101_aggregation_slides.png}
+\end{center}
 
-:::: column
-![](assets/spfr101_phylogeny.png){height=70%}
-::::
+## Los OB de granulovirus presentan un repertorio de proteínas amplio y dinámico
 
-:::: column
-![](assets/spfr101_aggregation.png){height=70%}
-::::
-:::
+\begin{center}
+        \includegraphics[height=7cm]{assets/resumen.png}
+\end{center}
 
 # Diversidad genómica en una población de SfMNPV
 
-## Variantes puntuales presentes en el aislamiento argentino de SfMNPV
+## Metodología experimental para el estudio de la diversidad genética dentro de SfMNPV-M
 
-![](assets/sfmnpv_genomic_diversity.png){height=70%}
+\begin{center}
+        \includegraphics[height=7cm]{assets/hts_workflow.png}
+\end{center}
 
-## Variantes estructurales detectadas en SfMNPV-M
+## El aislamiento argentino SfMNPV-M presenta niveles apreciables de diversidad genética
 
-![](assets/sv.png){height=70%}
+\begin{center}
+        \includegraphics[height=6cm]{assets/sfmnpv_genomic_diversity_slides1.png}
+\end{center}
 
-## Diversidad genética presente en aislamientos geográficos de SfMNPV
+## Los polimorfismos puntuales muestran distintas frecuencias alélicas de acuerdo a su impacto en las secuencias codificantes
 
-![](assets/sfmnpv_isolates_diversity.png){height=70%}
+\begin{center}
+        \includegraphics[height=6cm]{assets/sfmnpv_genomic_diversity_slides2.png}
+\end{center}
 
-## Diversidad genética presente en el proteoma de SfMNPV
+## Sumado a las mutaciones puntuales, también se detectaron variantes estructurales en el aislamiento de SfMNPV-M
 
-![](assets/sfmnpv_proteome_diversity.png){height=70%}
+\begin{center}
+        \includegraphics[height=6cm]{assets/sv.png}
+\end{center}
 
-## Evolución molecular de Sf29, una posible colagenasa
+## Existen diferencias en la composición genómica entre los diversos aislamientos geográficos de SfMNPV
 
-![](assets/sf29_evolution.png){height=70%}
+\begin{center}
+        \includegraphics[height=6cm]{assets/sfmnpv_isolates_diversity_slides.png}
+\end{center}
+
+## Un pequeño grupo de genes exhibe elevados niveles de diversidad genética tanto a nivel intra- como inter-aislamiento 
+
+\begin{center}
+        \includegraphics[height=6.5cm]{assets/sfmnpv_proteome_diversity_slides.png}
+\end{center}
+
+## Una de las proteínas con un elevado nivel de diversidad genética, Sf29, codifica una colagenasa putativa
+
+\begin{center}
+        \includegraphics[height=6.5cm]{assets/sf29_evolution_slides.png}
+\end{center}
+
+## La diversidad genética de ciertos genes de SfMNPV podría mejorar su adaptación al cogollero del maíz 
+
+\begin{center}
+        \includegraphics[height=7cm]{assets/resumen.png}
+\end{center}
 
 # Estudio de la replicación de SfGV en cultivo celular
 
 ## Preparación de DNA viral para transfección en cultivo celular
 
-![](assets/virus_adn_gel.png){height=70%}
+\begin{center}
+        \includegraphics[height=7cm]{assets/virus_adn_gel.png}
+\end{center}
 
-## Transfección de células Sf9 con AcMNPV-DsRed
+## La transfección de células Sf9 con DNA de AcMNPV-DsRed es más eficiente con Cellfectin
 
-![](assets/ac-dsred_transfection.png){height=70%}
+\begin{center}
+        \includegraphics[height=6.5cm]{assets/ac-dsred_transfection_slides.png}
+\end{center}
 
-## Transfección de células Sf9 con SfGV
+## AcMNPV-DsRed puede completar su ciclo infectivo en células Sf9 transfectadas
 
-![](assets/sfgv_transfection.png){height=70%}
+\begin{center}
+        \includegraphics[height=12cm]{assets/ac-dsred_transfection_slides2.png}
+\end{center}
 
-## Expresión temprana en células transfectadas con SfGV
+## SfGV no produjo un efecto citopático evidente en células Sf9 transfectadas
 
-![](assets/rt-pcr_sfgv_ie1.png){height=70%}
+\begin{center}
+        \includegraphics[height=7cm]{assets/sfgv_transfection_slides.png}
+\end{center}
 
-## Cuantificación de los niveles de DNA por qPCR 
+## Existe expresión temprana del gen *ie-1* en células Sf9 transfectadas con DNA de SfGV
 
-![](assets/qpcr_acmnpv.png){height=70%}
+\begin{center}
+        \includegraphics[height=7cm]{assets/rt-pcr_sfgv_ie1_slides.png}
+\end{center}
+
+## Cuantificación de los niveles de DNA mediante qPCR como una alternativa para evaluar el progreso del ciclo infectivo
+
+\begin{center}
+        \includegraphics[height=5cm]{assets/qpcr_acmnpv.png}
+\end{center}
 
 ## Construcciones auxiliares para mejorar la replicación de SfGV
 
-![](assets/construcciones_cultivo.png){height=70%}
+\begin{center}
+        \includegraphics[height=7cm]{assets/construcciones_cultivo_slides.png}
+\end{center}
 
 # Conclusiones
 
-# Perspectivas
+## Profundizamos el estudio del proteoma del OB de granulovirus
 
-- Validar experimentalmente la presencia del producto de fusión Epap48-49 mediante el uso de anticuerpos específicos contra Epap48 o Epap49.
+- Los OB de granulovirus son estructuras complejas.
 
-- Realizar los ensayos de purificación por afinidad seguida de análisis por espectrometría de masas para caracterizar los posibles interactores celulares de Epap95/Spfr101. 
+- Los datos proteómicos pueden ayudar a mejorar la anotación de genomas virales.
 
-- Confirmar mediante expresión, purificación y ensayo bioquímico si el gen *sf29* de SfMNPV codifica una proteína con actividad peptidasa.
+- Las proteínas hipotéticas representan una fuente de funciones biológicas poco caracterizadas.
 
-- Secuenciar y caracterizar los polimorfismos presentes dentro de distintos aislamientos geográficos y temporales de SfMNPV en Argentina.
+## Caracterizamos la diversidad genética presente dentro del aislamiento SfMNPV-M
 
-- Mejorar la reproducibilidad en la extracción de DNA total desde cultivo celular previo a la reacción de qPCR.
+- Primer estudio de la diversidad genómica en SfMNPV.
 
-- Evaluar mediante ensayos de co-transfección si los plásmidos de expresión de genes sinergizantes son capaces de incrementar los niveles de replicación viral en cultivo celular.
+- Un número reducido de genes en SfMNPV presentan una diversidad genética elevada.
 
-# Agradecimientos
+- Los variantes estructurales contribuyen a la adaptación del virus a su hospedador.
+
+## Estudio inicial de la replicación de SfGV en cultivo celular
+
+- El DNA genómico de SfGV desencadena la expresión de genes virales inmediatamente tempranos en cultivo celular. 
+
+- Por si solo, el DNA genómico de SfGV no soporta su replicación en cultivo celular.
+
+## Perspectivas
+
+- Realizar los ensayos de purificación por afinidad seguida de espectrometría de masas para caracterizar los posibles interactores celulares de Spfr101. 
+
+- Confirmar mediante expresión, purificación y ensayo bioquímico la actividad peptidasa putativa del gen *sf29* de SfMNPV.
+
+- Evaluar la replicación de SfGV en ensayos de co-transfección junto con los plásmidos de expresión de genes sinergizantes.
+
+## Agradecimientos
+
+- A mis directores
+
+- Laboratorio de Virología Molecular
+
+- Instituto de Biotecnología y Biología Molecular
+
+- CONICET y UNLP
+
+# Muchas gracias por su atención.
